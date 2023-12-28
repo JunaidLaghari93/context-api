@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply font-Raleway;
+}
+body {
+    @apply box-border overflow-x-hidden w-screen;
+}
+
+/* .btn-primary {
+    @apply bg-cyan-600 font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
+}
+
+/*s
+@layer components {
+    .nav-link {
+        @apply hover:text-fuchsia-700 hover:font-semibold hover:border-b-2 hover:border-fuchsia-700;
+    }
+}
+*/
